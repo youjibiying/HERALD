@@ -1,6 +1,5 @@
 # HERALD
-Source code of  ICASSP22 papaer:  Learnable Hypergraph Laplacian for Hypergraph Learning
-
+Source code of  ICASSP22 papaer:  [Learnable Hypergraph Laplacian for Hypergraph Learning](https://arxiv.org/pdf/2106.06666.pdf).
 ```
 @inproceedings{zhang2022learnable,
   title={Learnable hypergraph laplacian for hypergraph learning},
@@ -10,4 +9,10 @@ Source code of  ICASSP22 papaer:  Learnable Hypergraph Laplacian for Hypergraph 
   year={2022},
   organization={IEEE}
 }
+```
+![](HERALD_Schematic_diagram.png)
+
+The HERALD module can be run by 
+```
+python herald.py
 ```
