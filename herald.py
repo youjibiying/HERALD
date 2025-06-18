@@ -18,7 +18,7 @@ class Generate_G_from_H(nn.Module):
         """
         n_edge = H.shape[1]  # 4024
         # the weight of the hyperedge
-        W = torch.ones(n_edge).type_as(H)  # 使用权重为1
+        W = torch.ones(n_edge).type_as(H)  
         # the degree of the node
         DV = torch.sum(H * W,
                        dim=1)
